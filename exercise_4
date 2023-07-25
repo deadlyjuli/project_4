@@ -1,0 +1,22 @@
+#Guest list
+guests = ['julie','robert','werner']
+print(guests)
+
+guests = ['julie','robert','werner']
+guests.insert(0, 'diana')
+print(guests)
+
+del guests[1]
+print(guests)
+
+guests = ['julie','robert','werner']
+invitation = guests.pop(0)
+print('Hey\t' + invitation.title() + '\tI would like to invite you to my birthday party!')
+
+guests = ['julie','robert','werner']
+invitation = guests.pop(1)
+print('Hey\t' + invitation.title() + '\tI would like to invite you to my birthday party!')
+
+guests = ['julie','robert','werner']
+invitation = guests.pop(2)
+print('Hey\t' + invitation.title() + '\tI would like to invite you to my birthday party!')
